@@ -29,7 +29,7 @@ A [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server that le
 ### 2. Install and build
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/drive-file-browser-mcp.git
+git clone https://github.com/ashrafur02-sys/drive-file-browser-mcp.git
 cd drive-file-browser-mcp
 npm install
 npm run build
