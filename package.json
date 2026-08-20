@@ -1,0 +1,36 @@
+{
+  "name": "drive-file-browser-mcp",
+  "version": "1.0.0",
+  "description": "MCP server to browse, search, and read files in a Google Drive folder",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "drive-file-browser-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "google-drive",
+    "model-context-protocol",
+    "ai",
+    "claude",
+    "file-browser"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@googleapis/drive": "^21.0.0",
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
